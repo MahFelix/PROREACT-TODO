@@ -27,7 +27,7 @@ const TodoForm = ({addTodo}) => {
           <option value="Pessoal">Pessoal</option>
           <option value="Estudos">Estudos</option>
         </select>
-        <button type="submit">  Criar Tarefa</button>
+        <button className='b-create'type="submit">  Criar Tarefa</button>
       </form>
     </div>
    )
