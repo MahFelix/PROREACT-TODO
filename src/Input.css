@@ -1,0 +1,109 @@
+
+body {
+  font-family: Arial;
+  background-color: #f4f4f4;
+  padding: 30px;
+  color: black;
+  background-image: url("./assets/img/background.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+
+.App {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #efefef;
+  padding: 20px 30px;
+  border-raduius: 10px;
+}
+
+h1{
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p{
+  margin: 10px 0;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+button {
+  background-color: purple;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3 px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+  margin-right: 10px;
+
+}
+
+button:hover {
+  opacity:1;
+}
+
+.todo-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1 px solid gray;
+}
+
+.todo {
+  background-color: #fff;
+  box-shadoow:  0 0 10px black;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Complete {
+  background-color: green;
+}
+
+.Remove{
+  background-color: pink;
+}
+
+.todo-form {
+  padidng-bottom: 1.5rem;
+}
+
+input, select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width:100%;
+  height:40px;
+
+}
+
+.filterc, .search {
+  border-bottom: 1px solid gray;
+  magin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.filter-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+
+}
+
+.filter-options div {
+  flex: 1 1 0;
+}
